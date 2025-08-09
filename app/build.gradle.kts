@@ -43,24 +43,6 @@ android {
 }
 
 dependencies {
-    testImplementation("junit:junit:4.13.2")
-    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3")
-    testImplementation("io.mockk:mockk:1.13.10")
-    testImplementation("app.cash.turbine:turbine:1.0.0") // optional for Flow testing
-
-    // --- Android instrumented tests ---
-    androidTestImplementation("androidx.test.ext:junit:1.1.5")
-    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
-
-    // Room testing helpers
-    androidTestImplementation("androidx.room:room-testing:2.6.1")
-
-    // --- Compose UI testing ---
-    androidTestImplementation("androidx.compose.ui:ui-test-junit4:1.5.0")
-    debugImplementation("androidx.compose.ui:ui-test-manifest:1.5.0")
-
-    // Navigation testing (helps with fake NavController in Compose)
-    androidTestImplementation("androidx.navigation:navigation-testing:2.7.1")
     // Jetpack Compose Core
     implementation("androidx.compose.ui:ui:1.5.0")
     implementation("androidx.navigation:navigation-compose:2.7.1")
