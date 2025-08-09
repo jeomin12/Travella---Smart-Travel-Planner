@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "584964783267",
+    "project_id": "travella-4ad4d",
+    "storage_bucket": "travella-4ad4d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584964783267:android:3a7ed32246ccb1bdf61316",
+        "android_client_info": {
+          "package_name": "com.travelassistant.travella"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVqopjYiZ3wFfkUgglXqBg4Ap-MGgyD_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
